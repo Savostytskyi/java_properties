@@ -17,8 +17,6 @@ public class ReaderFactory {
         switch (type) {
             case STANDARD_PROPERTIES:
                 return new StandardPropertyReader().getInstance();
-            case APACHE_PROPERTIES:
-                return new ApachePropertyReader().getInstance();
             case GROOVY_CONFIG:
                 return new GroovyPropertyReader().getInstance();
             case N_PROPERTIES:

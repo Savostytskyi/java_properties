@@ -1,7 +1,6 @@
 package com.epam.props.beans;
 
 import com.epam.props.commons.Constants;
-import com.epam.props.configuration.Configurations;
 import com.epam.props.enums.MailTypes;
 import ru.qatools.properties.Property;
 import ru.qatools.properties.PropertyLoader;

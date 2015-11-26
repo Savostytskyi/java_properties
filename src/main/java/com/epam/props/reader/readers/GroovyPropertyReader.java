@@ -5,7 +5,6 @@ import groovy.util.ConfigSlurper;
 import java.io.*;
 import java.net.MalformedURLException;
 import java.util.Properties;
-
 import static com.epam.props.beans.MailProperties.getMailType;
 import static com.epam.props.commons.Constants.GROOVY_COFIG_FILE_PATH;
 

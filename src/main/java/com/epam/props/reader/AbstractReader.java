@@ -5,11 +5,11 @@ import java.util.Properties;
 /**
  * @author by Anton on 26.11.2015.
  */
-public abstract class AbstractReader {
+public abstract class AbstractReader<T> {
 
     public Properties properties;
 
-    public abstract Properties getInstance();
+    public abstract T getInstance();
 }
 
 
